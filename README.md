@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Relógio em tempo real
 
-## Getting Started
+Este é um projeto de um relógio digital simples, desenvolvido em **Next.js** e **TailwindCss**.
 
-First, run the development server:
+## Objetivo do Projeto
+O objetivo deste projeto foi apenas para entender como funcionava o desenvolvimento de um projeto com atualizações próprias (em tempo real). A ideia foi utilizada no meu [portfólio pessoal](https://www.digonomundo.com) para uma automação (fique a vontade para explorar!). 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Utilizadas
+- **Next.js** - Framework React para aplicações web.
+- **React** - Biblioteca principal para construção de interfaces.
+- **TailwindCss** - Estilização do layout
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como Rodar o Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Requisitos Prévios
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+- [Node.js](https://nodejs.org/) (v14 ou superior)
+- [npm](https://www.npmjs.com/), [yarn](https://yarnpkg.com/) ou [pnpm](https://pnpm.io/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Passos para Execução
 
-## Learn More
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Instale as dependências**
+   - Usando npm:
+     ```bash
+     npm install
+     ```
+   - Usando yarn:
+     ```bash
+     yarn install
+     ```
+   - Usando pnpm:
+     ```bash
+     pnpm install
+     ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Inicie o servidor de desenvolvimento**
+   - Usando npm:
+     ```bash
+     npm run dev
+     ```
+   - Usando yarn:
+     ```bash
+     yarn dev
+     ```
+   - Usando pnpm:
+     ```bash
+     pnpm dev
+     ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Acesse o projeto no navegador**
+   Abra o navegador e acesse [http://localhost:3000](http://localhost:3000)
 
-## Deploy on Vercel
+### Build para Produção
+Caso queira gerar uma versão pronta para produção:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Usando npm:
+  ```bash
+  npm run build
+  npm start
+  ```
+- Usando yarn:
+  ```bash
+  yarn build
+  yarn start
+  ```
+- Usando pnpm:
+  ```bash
+  pnpm build
+  pnpm start
+  ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Rodando em Diferentes Plataformas
+
+- **Windows**:
+   Execute os comandos descritos acima no terminal do Windows (cmd, PowerShell ou WSL).
+
+- **Linux/MacOS**:
+   Utilize o terminal padrão. Os comandos são os mesmos.
+
+
+## Licença
+Este projeto está licenciado sob a **Licença MIT**. Veja o arquivo [LICENSE - MIT](/LICENCE) para mais detalhes.
+
+## Contato
+Para mais informações, entre em contato através dos seguintes canais:
+- **LinkedIn**: [https://www.linkedin.com/in/digonomundo/](https://www.linkedin.com/in/digonomundo/)
+- **Email**: rodrigo.dias@digonomundo.com
