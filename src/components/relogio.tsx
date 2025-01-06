@@ -26,9 +26,11 @@ const Relogio: React.FC = () => {
   };
 
   return (
-    <div style={{ fontFamily: 'Arial, sans-serif', textAlign: 'center', padding: '10px' }}>
-      <h2>Relógio</h2>
-      <p>{formatarDataHora(dataHora)}</p>
+    <div className='flex items-center justify-center'>
+      <div style={{ fontFamily: 'Arial, sans-serif', textAlign: 'center', padding: '10px' }}>
+        <h2 className='text-4xl'>Relógio</h2>
+        <p className='text-3xl'>{formatarDataHora(dataHora)}</p>
+      </div>
     </div>
   );
 };
